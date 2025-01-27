@@ -21,6 +21,11 @@
     "noFallthroughCasesInSwitch": true,
 
     /* for ShadCN */
+    "baseUrl": ".",
+    "paths": {
+      "@/*": ["./src/*"]
+    }
+  },
   "include": ["src/**/*"],
   "exclude": ["node_modules", "dist"]
 }
